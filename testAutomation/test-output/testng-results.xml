@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34510" started-at="2020-02-07T15:15:16 CST" finished-at="2020-02-07T15:15:51 CST">
+  <suite name="Default suite" duration-ms="28315" started-at="2020-02-09T15:19:13 CST" finished-at="2020-02-09T15:19:41 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34510" started-at="2020-02-07T15:15:16 CST" finished-at="2020-02-07T15:15:51 CST">
-      <class name="tests.GestureToolButtonTest">
-        <test-method status="PASS" signature="findElements()[pri:0, instance:tests.GestureToolButtonTest@1f7030a6]" name="findElements" duration-ms="34454" started-at="2020-02-07T15:15:16 CST" finished-at="2020-02-07T15:15:51 CST">
+    <test name="Default test" duration-ms="28315" started-at="2020-02-09T15:19:13 CST" finished-at="2020-02-09T15:19:41 CST">
+      <class name="tests.FindElementsTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.FindElementsTest@53f65459]" name="beforeMethod" is-config="true" duration-ms="26476" started-at="2020-02-09T15:19:13 CST" finished-at="2020-02-09T15:19:39 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findElements -->
-      </class> <!-- tests.GestureToolButtonTest -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.FindElementsTest@53f65459]" name="f" duration-ms="1779" started-at="2020-02-09T15:19:39 CST" finished-at="2020-02-09T15:19:41 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.FindElementsTest@53f65459]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-09T15:19:41 CST" finished-at="2020-02-09T15:19:41 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.FindElementsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
