@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.FindElementsTest">
+      <class name="tests.TapElementTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
           <include name="f"/>
         </methods>
-      </class> <!-- tests.FindElementsTest -->
+      </class> <!-- tests.TapElementTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
